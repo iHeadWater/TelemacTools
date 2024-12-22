@@ -7,8 +7,8 @@ RESULTS FILE                        = r2d_canal-t2d.slf
 / Boundary
 BOUNDARY CONDITIONS FILE            = geo_canal.cli
 LIQUID BOUNDARIES FILE              = t2d_canal.qsl
-PRESCRIBED FLOWRATES                = 0.  ;  50.
-PRESCRIBED ELEVATIONS               = 0.5 ;   0.
+PRESCRIBED FLOWRATES                = 0. ; 0.
+PRESCRIBED ELEVATIONS               = 0. ; 0.
 
 / Initinal conditions
 INITIAL CONDITIONS                  = 'CONSTANT ELEVATION'
