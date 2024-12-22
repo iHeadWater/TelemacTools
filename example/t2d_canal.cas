@@ -1,0 +1,27 @@
+TITLE = 'TELEMAC 2D                 = TEST DE CANAL$'
+
+/ File
+GEOMETRY FILE                       = geo_canal.slf
+RESULTS FILE                        = r2d_canal-t2d.slf
+
+/ Boundary
+BOUNDARY CONDITIONS FILE            = geo_canal.cli
+LIQUID BOUNDARIES FILE              = t2d_canal.qsl
+PRESCRIBED FLOWRATES                = 0.  ;  50.
+PRESCRIBED ELEVATIONS               = 0.5 ;   0.
+
+/ Initinal conditions
+INITIAL CONDITIONS                  = 'CONSTANT ELEVATION'
+INITIAL ELEVATION                   = 0.5
+
+/ Time
+TIME STEP                           = 2.
+NUMBER OF TIME STEPS                = 100
+GRAPHIC PRINTOUT PERIOD             = 10
+LISTING PRINTOUT PERIOD             = 10
+VARIABLES FOR GRAPHIC PRINTOUTS     = 'U,V,H'
+MASS-BALANCE                        = YES
+
+/ Parameters
+LAW OF BOTTOM FRICTION              = 4
+FRICTION COEFFICIENT                = 0.05
