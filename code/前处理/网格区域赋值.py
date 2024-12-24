@@ -1,3 +1,7 @@
+'''
+给网格特定区域赋值，用于修改高程、糙率
+'''
+
 import geopandas as gpd
 import pandas as pd
 from shapely.geometry import Polygon
