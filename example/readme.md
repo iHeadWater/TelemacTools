@@ -1,4 +1,5 @@
-# 一个简单的案例
+# 入门案例
+介绍Telemac2D入门案例，详细图文过程参考[语雀文档](https://dlut-water.yuque.com/egpcsf/atha43/tkyyxyeqfyn3gapd)
 
 - geo_canal.slf，地形文件
 - geo_canal.cli，边界位置文件
