@@ -56,8 +56,8 @@ def ExportMeshValue(res, varname, time):
     f.close()
 
 
-res = LoadData('out-result.slf')
+res = LoadData('geo.slf')
 
 ExportMesh(res)  # 输出网格结构 mesh.txt
-ExportPointValue(res, 'WATER DEPTH', 40)  # 输出节点值，40指时间步
-ExportMeshValue(res, 'WATER DEPTH', 40)  # 输出带节点值的网格结构
+ExportPointValue(res, 'BOTTOM', 0)  # 输出节点值，0指时间步
+ExportMeshValue(res, 'BOTTOM', 0)  # 输出带节点值的网格结构
